@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #00ceff;
+}
+
+#projects {
+  background-color: #00ceff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.btn {
+  border-radius: 16px 30px 16px 30px;
+}
