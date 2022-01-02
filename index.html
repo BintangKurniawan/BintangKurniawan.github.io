@@ -11,13 +11,11 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
 
     <!-- Title -->
     <title>Boku no Pootto | Bintang Kurniawan</title>
@@ -54,7 +52,7 @@
     <section class="jumbotron text-center">
       <img src="img/veliona.png" alt="veliona" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Bintang Kurniawan</h1>
-      <p class="lead">Student | Memer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -69,16 +67,16 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-4">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-offset="300">
             <h2>About Me</h2>
           </div>
         </div>
 
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="290" data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ipsa sint. Accusamus odit, excepturi voluptatum iste eum omnis at minus hic, repudiandae accusantium, debitis est dolorem in tempore aut tenetur?</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-offset="290" data-aos-duration="1000" data-aos-delay="200">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro atque beatae, fugit maxime, assumenda harum voluptatem magni repellat molestias dignissimos culpa voluptatum, nulla eaque voluptate vitae unde nemo minima
               deleniti.
@@ -96,14 +94,14 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <h2>My Projects</h2>
           </div>
         </div>
 
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-offset="290" data-aos-duration="500">
               <img src="img/mei (2).png" class="card-img-top" alt="projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -111,7 +109,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-down" data-aos-offset="290" data-aos-duration="500" data-aos-delay="100">
               <img src="img/mei (3).png" class="card-img-top" alt="projects 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,7 +117,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-offset="290" data-aos-duration="500" data-aos-delay="200">
               <img src="img/mei (4).png" class="card-img-top" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,16 +125,16 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/mei (5).png" class="card-img-top" alt="projects 3" />
+            <div class="card" data-aos="flip-right" data-aos-offset="290" data-aos-duration="500" data-aos-delay="300">
+              <img src="../../../Pictures/wallpaper/mei (5).png" class="card-img-top" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/mei.png" class="card-img-top" alt="projects 3" />
+            <div class="card" data-aos="flip-left" data-aos-offset="290" data-aos-duration="500" data-aos-delay="400">
+              <img src="../../../Pictures/wallpaper/mei.png" class="card-img-top" alt="projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -153,6 +151,70 @@
       </svg>
     </section>
     <!-- Akhir projects -->
+
+    <!-- Awal gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col" data-aos="fade-up">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 1.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 2.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 3.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 4.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 5.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 6.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 7.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 8.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 9.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/pic 10.jpg" alt="" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir gallery -->
 
     <!-- Awal contact -->
     <section id="contact">
@@ -209,6 +271,32 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 1.5, delay: 1.2, text: "Student | Memer" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 720, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxtWFO0VLiLve5qrVlg8Ez5fSKUdaDTP6CxbbbiAQrJn--MjMAW5pjxGJ3MSbQhvfKg/exec";
